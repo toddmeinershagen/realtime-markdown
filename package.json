@@ -1,0 +1,34 @@
+{
+  "name": "realtime-markdown",
+  "version": "1.0.0",
+  "description": "Realtime Markdown Viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toddmeinershagen/realtime-markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "sharejs"
+  ],
+  "author": "Todd Meinershagen",
+  "dependencies": {
+    "ejs": "^2.3.2",
+    "express": "^4.13.0",
+    "redis": "^0.10.3",
+    "share": "^0.6.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/toddmeinershagen/realtime-markdown/issues"
+  },
+  "homepage": "https://github.com/toddmeinershagen/realtime-markdown"
+}
